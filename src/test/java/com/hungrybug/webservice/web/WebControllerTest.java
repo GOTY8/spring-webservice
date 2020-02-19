@@ -23,6 +23,6 @@ public class WebControllerTest {
         String body = this.restTemplate.getForObject("/", String.class);
 
         //then
-        assertThat(body).contains("웹 서비스");
+        assertThat(body).contains("Web Service");
     }
 }
